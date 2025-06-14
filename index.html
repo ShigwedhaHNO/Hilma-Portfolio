@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hilma Shigwedha's Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/59f6385269.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo">
+          <span>H</span><span>I</span><span>L</span><span>M</span><span>A</span>
+        </h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#courses-theme">Courses</a></li>
+          <li><a href="#labs-section">Labs & More</a></li>
+          <li><a href="#campus-inv">Campus Invo.</a></li>
+          <li><a href="#professional-dev">Professional Dev.</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        <label class="theme-switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="theme-slider round"></span>
+        </label>
+      </nav>
+      <div class="header-text">
+        <h1>Hi,<br> I'm <span>Hilma <br>Shigwedha</span>.</h1>
+        <p>Electronics and Computer Engineering Student</p>
+        <p>Welcome to my Portfolio</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!-------------------------------------------------------------------------------------about--------------------------------------------------------------------------->
+  <div id="about-section">
+    <h1 class="section-title"><a href="#">Get to know me</a></h1>
+    <div class="about-content">
+      <div class="left-image">
+        <img src="images/aboutphoto.jpg" alt="Hilma Shigwedha" />
+        <div class="image-footer">Aspiring Software Engineer</div>
+      </div>
+      <div class="right-content">
+        <p class="bio-text">
+        I'm <strong>Hilma Shigwedha</strong>, an <strong>Electronics and Computer Engineering</strong> 
+        student from Namibia, currently studying at the <strong>University of Namibia</strong>. 
+        I’m all about mixing tech with creativity, whether that means building with Arduino, 
+        diving into machine learning, or writing clean, meaningful code. 
+        As <strong>President of the Engineers' Book Club</strong>, 
+        I’ve led poetry nights, mentoring programs, 
+        and other community events that bring people together around ideas and inspiration.
+        Outside the lab and lecture halls, I’m a storyteller at heart. 
+        From media documentation to content creation, I love helping others share their journeys. 
+        Engineering to me isn’t just wires and code, it’s about designing real solutions to real human problems. 
+        I'm big on curiosity, collaboration, and making things that matter.
+      </p>
+        </p>
+        <div class="photo-grid">
+          <img src="images/parlament1.jpg" alt="Speaking">
+          <img src="images/melab.jpg" alt="Lab Work">
+          <img src="images/Academicach1.jpg" alt="Award">
+          <img src="images/you.jpg" alt="Group Photo">
+        </div>
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------Courses by theme--------------------------------------------------------------->
+<div id="courses-theme">
+    <div class="container">
+        <h1 class="sub-title">My Courses</h1>
+        <div class="courses-list">
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>Core Engineering & Mathematics</h2>
+                <p>This category builds the analytical foundation required for all engineering disciplines. 
+                  It includes:</p>
+                <ol>
+                  <li>Engineering Mathematics 1 & 2</li>
+                  <li>Engineering Mathematics 3 & 4</li>
+                  <li>Statistics for Engineers</li>
+                  <li>Fundamentals of Electrical Engineering</li>
+                  <li>Electric Circuit 1 & 2</li>
+                  <li>Signals and Systems</li>
+                  <li>Material Science</li>
+                  <li>Engineering Drawing</li>
+                  <li>Engineering Mechanics I</li>
+                  <li>Introduction to Electrical, Electronics & Computer Engineering</li>
+                </ol>
+            </div>
+             <div>
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <h2>Electronics, Systems & Communication</h2>
+                <p>Focused on hardware, signals, embedded systems, 
+                  and wireless technology.</p>
+                  <ol>
+                    <li>Digital Electronics</li>
+                    <li>Analogue Electronics I</li>
+                    <li>Analogue Electronics II</li>
+                    <li>Applied Electromagnetics</li>
+                    <li>Microprocessor Systems</li>
+                    <li>Microcontroller Architecture and Programming</li>
+                    <li>Digital Signal Processing</li>
+                    <li>Control Engineering</li>
+                    <li>Embedded Systems and Robotics</li>
+                    <li>Analogue and Digital Communication</li>
+                    <li>Wireless Communication</li>
+                    <li>Radio Frequency and Microwave Engineering</li>
+                    <li>Electronic Product Development</li>
+                  </ol>
+            </div>
+             <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Computing & Software Engineering</h2>
+                <p>Covers programming, networks, system-level software, 
+                  and intelligent systems.</p>
+                <ol>
+                  <li>Computing Fundamentals</li>
+                  <li>Computer Programming 1 & 2</li>
+                  <li>Computer Networks</li>
+                  <li>Operating Systems</li>
+                  <li>Database Systems</li>
+                  <li>Computer Software Engineering</li>
+                  <li>Machine Learning</li>
+                </ol>
+            </div>
+            <div>
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2>Professional Practice & Projects</h2>
+                <p>Engineering in real-world contexts; 
+                  business, ethics, design, and research.</p>
+                <ol>
+                  <li>Workshop Practice</li>
+                  <li>Measurement & Instrumentation</li>
+                  <li>Engineering Economics</li>
+                  <li>Engineering Entrepreneurship</li>
+                  <li>Project Management</li>
+                  <li>Engineering Ethics and Practice</li>
+                  <li>Technical Writing</li>
+                  <li>Industrial Training</li>
+                  <li>Research Methods & Experimental Design</li>
+                  <li>Research Project</li>
+                  <li>Design Project</li
+                </ol>
+            </div>
+        </div> 
+    </div>
+</div>
+<!------------------------------------------------------------------------------labs-section--------------------------------------------------------------------->
+<div id="labs-section">
+  <div class="labs-section">
+    <div class="container">
+      <h1 class="sub-title">Labs & More</h1>
+      <div class="labs-content">
+        <div class="labs-text">
+          <p>Learning in a classroom is one thing, but using that knowledge in the real world is completely different. 
+            You start with the basics from books and lectures. Then, you begin to connect the dots through hands-on work in workshops and labs. 
+            Talking with lecturers helps clear up any confusion. Finally, internships in your last year are key. They let you work on real projects, 
+            solve actual problems, and see how everything you learned comes together in a professional job.
+          </p>
+          <h2><strong>Lab & Workshop Skills</strong></h2>
+          <ol>
+            <li>Breadboarding and circuit prototyping</li>
+            <li>Soldering and PCB handling</li>
+            <li>Building and testing amplifiers and oscillators</li>
+            <li>Digital circuit design using logic gates and flip-flops</li>
+            <li>Designing BCD synchronous up counters</li>
+            <li>Microcontroller programming and interfacing</li>
+            <li>Using simulation software (e.g., Proteus)</li>
+            <li>Embedded systems and robotics implementation</li>
+            <li>Basic welding and metalwork fabrication</li>
+            <li>Computer networking setup and configuration</li>
+            <li>Operating systems and software installation</li>
+            <li>MATLAB/Simulink modeling and signal plotting</li>
+            <li>Python/C programming for embedded applications</li>
+            <li>Hands-on exposure to database and operating systems concepts</li>
+          </ol>
+        </div>
+        <div class="slider">
+          <div class="slide active">
+            <img src="images/labp1.jpg" alt="Picture 1">
+            <div class="caption">Completed welding project during hands-on training 
+              in arc welding techniques and metal fabrication.</div>
+          </div>
+          <div class="slide">
+            <img src="images/labp2.jpg" alt="Picture 2">
+            <div class="caption">In the lab, putting theory into practice. 
+              Here, I'm engaged in circuit analysis and measurements, 
+              honing essential skills in electronics and instrumentation</div>
+          </div>
+          <div class="slide">
+            <img src="images/labp3.jpg" alt="Picture 3">
+            <div class="caption">Hands-on bricklaying workshop focused on 
+              building technique and structural accuracy</div>
+          </div>
+          <div class="slide">
+            <img src="images/labp4.jpg" alt="Picture 4">
+            <div class="caption">Experimenting with Zener diodes and rectifier circuits to analyze voltage regulation, 
+              load effects, and diode characteristics in electrical systems</div>
+          </div>
+          <div class="slide">
+            <img src="images/labp5.jpg" alt="Picture 5">
+            <div class="caption">Verifying the operation of a BCD synchronous up counter 
+              built with T flip-flops during a digital electronics lab</div>
+          </div>
+          <div class="slide">
+            <img src="images/labgroup.jpg" alt="Picture 6">
+            <div class="caption">It's a wrap! 
+              Proud to have completed this intensive training alongside such a 
+              talented group of peers and mentors.</div>
+          </div>
+          <button class="prev">&lt;</button>
+          <button class="next">&gt;</button>
+        </div>
+      </div>
+    </div>
+  </div>    
+</div>
+<!---------------------------------------------------------------------Campus Inv----------------------------------------------------------------------->
+<div id="campus-inv">
+  <div class="campus inv">
+    <div class="container">
+      <h1 class="sub-title">Campus Involvements</h1>
+      <div class="work-list">
+            <div class="work">
+                <img src="images/parliamentg.jpg">
+                <div class="layer">
+                    <h3>JEDS Campus Parliament</h3>
+                    <p><strong>Role:</strong> As Chair Person of the Engineers' Book Club, 
+                      it is my responsibility to speak up and represent those who I lead, 
+                      to consider them when decisions are made and make sure they are represented well.</p>
+                    <a href="#"><img src="images/unam logo (black).png" alt="logo"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bookmeeting.jpg">
+                <div class="layer">
+                    <h3>Engineers' Book Club</h3>
+                    <p><strong>Role:</strong> As the President of the Engineers' Book Club, 
+                      it is my responsibility to make sure events roll by smoothly,
+                      make sure we follow rules and regulations when organizing these events and
+                      that finaces to fund our club & events, and to ensure members get their money's worth.</p>
+                    <a href="#"><img src="images/bookclub logo nice.png" alt="logo"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/you.jpg">
+                <div class="layer">
+                    <h3>YouNetwork</h3>
+                    <p><strong>Role:</strong> As Secretary of Finance (Treasurer), 
+                      of YouNetwork, I manage the budget, handle expenses, 
+                      and ensure financial transparency for all our events and operations</p>
+                    <a href="#"><img src="images/YouNetwork Logo.png" alt="logo"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mediacom.jpg">
+                <div class="layer">
+                    <h3>JEDS Media Committee</h3>
+                    <p><strong>Role:</strong> As HOD of the Documentation and Graphic Design Department, 
+                      it is my responsibility to see it through that articles and posters are submitted, written and designed
+                      on time, for events/ updates and news happening on Campus.
+                      that finaces to fund our club & events, and to ensure members get their money's worth.</p>
+                    <a href="#"><img src="images/unam logo (black).png" alt="logo"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mywritting.jpg">
+                <div class="layer">
+                    <h3>Author</h3>
+                    <p><strong>Role:</strong> I have contributed my share to content in our Campus Newsletter, 
+                      I have written and revised articles reporting about events on Campus, and written a few pieces of poetry.</p>
+                    <a href="#"><img src="images/jedstimes.jpg" alt="logo"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/codingforrooo.png">
+                <div class="layer">
+                    <h3>Robotics Club</h3>
+                    <p><strong>Role:</strong> A member of the Robotics Club, focusing on building projects and enhancing knowledge 
+                      in both hardware and software development.</p>
+                    <a href="#"><img src="images/robotics.png" alt="logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------------------------------------------Profesional Development-------------------------------------------------------------->
+<div id="professional-dev">
+    <div class="container">
+        <h1 class="prof-sub-title">Professional Development</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="images/era.png">
+                <div class="prof-layer">
+                    <h3>ERA</h3>
+                    <p>An android app for comparing prices for different local stores, 
+                      which makes it easier for people to be budget better.</p>
+                    <a href="https://www.figma.com/design/Ta7hpS2OsV3SFBivX9aNBc/You-can-touch-this-one?m=auto&t=NRWGHOP9iclz5gov-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/rommie.png">
+                <div class="prof-layer">
+                    <h3>Rommie-Radar</h3>
+                    <p>An android app for matching roomates, 
+                      this app would especially be a advantage to student accomodations.</p>
+                    <a href="https://www.figma.com/design/cUqkHvxrOhiQ1aPbgEyLgA/Roomie-Radar?m=auto&t=NRWGHOP9iclz5gov-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/BookHubbb.png">
+                <div class="prof-layer">
+                    <h3>BookHub</h3>
+                    <p>A digital desktop library application developed using Python programming, Qt Designer for the UI.</p>
+                    <a href="images/BookHub - Made with Clipchamp.mp4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------contact-------------------------------------------------------------------------->
+<div id="contact">
+    <div class="cont-container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:shigwedha37@gmail.com">shigwedha37@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>0812850674</p>
+                <div class="social-icons">
+                    <a href="https://www.tiktok.com/@thee_hilmashigwedha?_t=ZM-8xBJqKE9VrR&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://x.com/HNOShigwedha?t=7mSQaxWX5KQhhzF3rD9q6g&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/hilma-shigwedha-596193230"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Hilma Shigwedha. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+// Sidemenu toggle functionality
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+      sidemenu.style.right = "0"
+  }
+  function closemenu(){
+      sidemenu.style.right = "-200px"
+  }
+</script>
+  
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    });
+
+    // Initial display
+    showSlide(currentIndex);
+  });
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwdzbhoy7VB2R738midniO69OgTG3E0rEN4YJMkFjJm0XVSaFMT-WUTiRfubPiZE3M-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    const submitBtn = form.querySelector('button[type="Submit"]');
+    // Add clicked effect
+    submitBtn.classList.add('clicked');
+    setTimeout(() => {
+      submitBtn.classList.remove('clicked');
+    }, 150); // Animation duration
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = " "
+            form.reset(); // Reset the form after submission
+        },150); // Clear message after 5 seconds
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+  const toggle = document.getElementById('darkModeToggle');
+  const body = document.body;
+
+  toggle.addEventListener('change', () => {
+    body.classList.toggle('dark-mode');
+  });
+</script>
+</body>
+</html>
